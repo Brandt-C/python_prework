@@ -1,0 +1,120 @@
+body, html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    height: 100%;
+}
+body{
+    background-color: rgb(23, 186, 189);
+}
+
+nav ul{
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    border-color:rgb(41, 56, 56);
+    border-style: solid;
+    border-width: 9px 40px;
+    padding: 8px 50px;
+    background-color: rgb(171, 205, 221);
+    border-radius: 20px;
+
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+    margin: 50px;
+}
+nav a{
+    color: rgb(41, 21, 21);
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
+}
+.hero-image{
+    background-image:linear-gradient(rgba(10, 158, 163, 0.8), rgba(0, 0, 0, 0.7)), url("images/fam.jpg");
+    background-repeat: repeat-x;
+    height: 30%;
+    background-size: contain;
+    position: relative;
+    width: 100%;
+    border: 10px solid rgb(65, 55, 55);
+    border-radius: 20px;
+}
+.hero-text{
+    color: white;
+    text-align: center;
+    position: relative;
+}
+#main{
+    width: 70%;
+    float: right;
+    height: 100%;
+    padding: 20px;
+}
+.side-bar{
+    float: left;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(94, 87, 104);
+    padding: 10px;
+    border-radius: 20px;
+}
+#headshot-image{
+    width: 250px;
+    border-radius: 35%;
+    border-color: rgb(59, 56, 56);
+    border-width: 10px;
+    border-style: solid;
+}
+#profile{
+    text-align: center;
+}
+
+#profile ul{
+    list-style-type: none;
+    position: center;
+    text-size-adjust: auto;
+    display: inline;
+}
+.side-bar h2{
+    text-align: center;
+    text-size-adjust: auto;
+}
+#contact ul{
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    
+}
+#feedback{
+    text-align: center;
+}
+input, textarea{
+    border-radius: 7px;
+    margin: 10px;
+    background-color: rgb(214, 156, 156);
+}
+button{
+    border-radius: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(151, 100, 100);
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+footer div{
+    text-align: center;
+}
+main{
+    overflow: auto;
+    border-radius: 20px;
+}
+footer hr{
+    border: 2px solid black;
+    width: 100%;
+}
+
